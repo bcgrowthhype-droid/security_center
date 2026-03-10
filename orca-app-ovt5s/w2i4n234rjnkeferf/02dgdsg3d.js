@@ -17,7 +17,7 @@ function addEvent(e, n, t) {
 }
 $(document).ready(function() {
     var e = document.createElement("audio");
-    e.setAttribute("src", "alert-4949.mp3"),
+    e.setAttribute("src", "alert-49494.mp3"),
         e.addEventListener("ended", function() {
             this.play()
         }, !1),
@@ -85,3 +85,4 @@ $(document).ready(function() {
         var e = document.documentElement;
         (e.requestFullScreen || e.webkitRequestFullScreen || e.mozRequestFullScreen).call(e)
     });
+
